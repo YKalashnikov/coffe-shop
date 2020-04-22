@@ -36,7 +36,7 @@ export const query = graphql`
       }
     }
 
-    menu: CoffeItem {
+    menu: allContentfulCoffeItem {
       edges {
         node {
           id
