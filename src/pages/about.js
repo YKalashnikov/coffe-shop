@@ -1,15 +1,15 @@
 import React from "react";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+//import SEO from "../components/seo";
 import BackgroundSection from "../components/Globals/BackgroundSection";
 import Info from "../components/Home/Info";
 
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+      {/* <SEO title="About" keywords={[`gatsby`, `application`, `react`]} /> */}
       <BackgroundSection
         img={data.img.childImageSharp.fluid}
         title="about us"
